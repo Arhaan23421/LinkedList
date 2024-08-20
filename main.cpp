@@ -98,7 +98,7 @@ class List
     Node* temp3=  head;
     while(counter != index)
     {
-        temp3 = temp3->next;
+      temp3 = temp3->next;
       counter++;
     }
     Node* temp2 = temp3->next->next;
