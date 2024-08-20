@@ -111,12 +111,6 @@ class List
   Node* head;
 };
 
-void printList(Node* sample);
-int length(Node* sample);
-Node* add( Node* head, char datas);
-Node* insert( Node* head, char datas, int index);
-Node* del(Node* head, int index);
-
 
 int main()
 {
