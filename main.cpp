@@ -21,7 +21,7 @@ int length()
   }
   return counter;
 }
-private:
+ // private:
 };
 
 class List
