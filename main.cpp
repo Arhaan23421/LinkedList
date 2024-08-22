@@ -8,6 +8,11 @@ class List
 {
   public:
 
+  ~List()
+  {
+    clear();
+  }
+
   void add(char data)
   {
     this->length +=1;
